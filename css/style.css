@@ -1,1 +1,147 @@
+@font-face {
+    font-family: "Exo" ;
+    src: url(../fonts/Exo_2/static/Exo2-Regular.ttf); format("truetype");
+}
 
+@font-face {
+    font-family: "Alegreya Sans" ;
+    src: url(../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf) format("truetype"); 
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url(../fonts/Alegreya/static/Alegreya-Regular.ttf) format("truetype");
+}
+
+:root {
+    --main-bg-color: #CE7320;
+}
+
+main {
+    background-color: var(--main-bg-color);
+}
+/* Navigation menu */
+
+#hamburger_menu {
+    display: none;
+}
+
+nav {
+    display: none;
+    font-family: "Exo";
+    text-transform: uppercase;
+    background-color: var(--main-bg-color);
+    position: relative;
+    margin: auto;
+    right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 70%;
+}
+
+nav ul li {
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#hamburger_menu:checked ~ nav {
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.hamburger_menu {
+    align-self: center;
+}
+
+.background_image {
+    width: 100%;
+}
+
+/* HOME PAGE */
+
+.add_image {
+    width: 50%;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 5px 20px;
+    box-shadow: 2px 2px 2px 2px;
+    align-items: center;
+    margin: 5px 50px;
+}
+
+.cta {
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: "Exo";
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+
+h2 {
+    font-family: "Exo";
+}
+
+p {
+    font-family: "Alegreya Sans";
+    text-align: center;
+}
+
+h3 {
+    font-family: "Exo";
+    text-align: center;
+}
+
+.news_image1 {
+    width: 100%;
+}
+
+.news_image2 {
+    width: 50%;
+}
+
+.news_heading {
+    background-color: #d9d9d9 ;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wrap {
+    background-color: var(--main-bg-color);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.wrap_box {
+    background-color: #E8CFCF;
+    margin: 10px;
+    padding: 20px;
+}
+
+.wrap_box div {
+   
+}
