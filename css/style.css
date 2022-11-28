@@ -16,11 +16,18 @@
 :root {
     --main-bg-color: #CE7320;
     --box-bg-color: #EA8E38;
+    --button-book-color: #54504C;
+    --background-text-color: #FFFFFF;
 }
 
 main {
     background-color: var(--main-bg-color);
 }
+
+.active {
+    text-decoration: underline;
+}
+
 /* Navigation menu */
 
 #hamburger_menu {
@@ -146,6 +153,58 @@ h3 {
     padding: 20px;
 }
 
-.wrap_box div {
-   
+/* EXHIBITS PAGE */
+
+.background_line {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 0.5em;
+    justify-content: center;
+    font-family: "Exo";
+}
+
+.book_ticket { 
+    font-family: "Exo";
+    padding: 5px 10px;
+    margin: 10px auto;
+    font-size: 1em;
+    display: flex; 
+    justify-content: center;
+    
+}
+
+/* EXPLORE PAGE */
+
+.heading {
+    font-family: "Exo";
+    text-transform: uppercase;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-text-color);
+}
+
+.main_heading {
+    font-family: "Exo";
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+/* NEWS PAGE */
+
+.news_page_background {
+    background-image: url("../images/metalweb.jpg");
+}
+
+.news_page_nightinthemuseum {
+    background-image: url("../images/nightinthemuseum1.jpg")
 }
