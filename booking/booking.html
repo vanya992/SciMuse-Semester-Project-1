@@ -4,15 +4,35 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width">
         <meta name="description" content="Community Science Museum - we make learning fun">
-        <link href="css/style.css" rel="stylesheet">
-        <title> SciMuse Community Science Museum ⎮ Booking </title>
+        <link href="../css/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f55b09a11a.js" crossorigin="anonymous"></script>
+        <title> SciMuse Community Science Museum ⎮ Exhibits </title>
     </head>
     <body>
         <header>
-
+            <div><img src="../images/logo.png" alt="Logo of the Museum"></div>
+            <div class="hamburger_menu"><label for="hamburger_menu"><i class="fa-solid fa-bars"><span class="hidden">hamburger menu</span></i></label> </div>
+            <input type="checkbox" id="hamburger_menu">
+            <nav>
+                <ul>
+                    <li> <a href="../index.html"> HOME </a></li>
+                    <li> <a href="../exhibits.html"> EXHIBITS </a> </li>
+                    <li> <a href="../explore.html"> EXPLORE </a></li>
+                    <li> <a href="../getinvolved.html"> GET INVOLVED </a></li>
+                    <li> <a href="../news.html"> NEWS </a></li>
+                    <li> <a href="../about.html"> ABOUT US </a></li>
+                    <li> <a href="../contact.html"> CONTACT </a> </li>
+                </ul>
+            </nav>
         </header>
-        <main>
-
+        <main class="booking_headline">
+            <h1> Booking Exhibitions </h1> 
+               <div class="booking kids"> <p>Kids</p> <p>50nok</p> </div>
+               <div class="booking students"> <p> Students </p> <p> 60nok </p> </div>
+               <div class="booking adults"> <p> Adults </p> <p> 70nok </p> </div>
+            <div class="continue"> 
+                <a href="checkout.html"> <input type="button" value="Continue" class="checkout_buttons"> </a>
+            </div>
         </main>
         <footer>
 

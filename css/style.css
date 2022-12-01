@@ -97,10 +97,12 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     background-color: var(--box-bg-color);
-    box-shadow: 2px 2px 2px 2px;
+    box: 2px 2px 2px 2px; 
+    border: none;
     border-radius: 10px;
     align-items: center;
     margin: 10px 50px;
+   
 }
 
 .container div {
@@ -108,14 +110,17 @@ header {
     
 }
 
-.cta {
+.homepage_button {
     padding: 10px;
     font-size: 1.5em;
+    font-weight: bold;
     font-family: "Exo";
     text-transform: uppercase;
     display: flex;
-    margin: 15px auto;
-    background: var(--box-bg-color)
+    margin: 30px auto;
+    background: var(--box-bg-color);
+    border: none;
+    border-radius: 10px;
 }
 
 h2 {
@@ -180,7 +185,10 @@ h3 {
     font-size: 1em;
     display: flex; 
     justify-content: center;
-    
+}
+
+a {
+    text-decoration: none;
 }
 
 /* EXPLORE PAGE */
@@ -302,4 +310,36 @@ p {
 
 .about p {
     font-size: 1.2em;
+}
+
+/* BOOKING PAGE */
+
+.booking {
+    display: flex;
+    flex-direction: row;
+    font-family: "Alegreya";
+    color: var(--background-text-color);
+    font-size: 2em;
+}
+
+.booking_headline {
+    color: var(--background-text-color);
+    font-family: "Exo";
+
+
+}
+
+.continue {
+    background-color: var(--background-address);
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.checkout_buttons {
+    background-color: var(--background-contact-page);
+    padding: 5px 15px; 
+    font-family: "Alegreya Sans";
+    font-size: 2em;
+    border-radius: 15px;
+    border: 0px;
 }
