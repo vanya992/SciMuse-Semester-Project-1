@@ -82,6 +82,10 @@ header {
     width: 100%;
 }
 
+.hidden {
+    display: none;
+}
+
 /* HOME PAGE */
 
 .add_image {
