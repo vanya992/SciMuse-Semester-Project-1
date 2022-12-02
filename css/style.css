@@ -22,6 +22,7 @@
     --background-div-color: #C59161;
     --background-contact-page: #FABF7C;
     --background-address: #AB5A0E;
+    --background-footer: #D8781F;
 }
 
 main {
@@ -97,7 +98,7 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     background-color: var(--box-bg-color);
-    box: 2px 2px 2px 2px; 
+    box-sizing: 2px 2px 2px 2px; 
     border: none;
     border-radius: 10px;
     align-items: center;
@@ -229,9 +230,11 @@ p {
 .news_page_nightinthemuseum {
     background-image: url("../images/nightinthemuseum1.jpg");
     background-repeat: no-repeat;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+   
 }
 
 .news_events {
@@ -315,8 +318,8 @@ p {
 /* BOOKING PAGE */
 
 .booking {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     font-family: "Alegreya";
     color: var(--background-text-color);
     font-size: 2em;
@@ -325,8 +328,7 @@ p {
 .booking_headline {
     color: var(--background-text-color);
     font-family: "Exo";
-
-
+    text-align: center;
 }
 
 .continue {
@@ -335,11 +337,109 @@ p {
     padding: 20px;
 }
 
+.checkout {
+    font-family: "Exo";
+}
+
+.checkout label {
+    font-size: 2em;
+}
+
 .checkout_buttons {
     background-color: var(--background-contact-page);
+    font-family: "Alegreya Sans";  
     padding: 5px 15px; 
-    font-family: "Alegreya Sans";
+    font-size: 2.5em;
+    font-weight: 900;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+/* CHECKOUT PAGE */
+
+.card_details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    width: 90%;
+}
+
+.checkout input {
+    height: 30px;
+    width: 90%;
+    margin: 5px 10px;
+    justify-content: center;
+}
+
+.checkout label {
+    margin-left: 10px;
+}
+
+#cvc {
+
+}
+
+/* SUCCESS PAGE */
+
+.success {
+    font-family: "Exo";
+}
+
+.success h1 {
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px auto;
+    font-weight: normal;
+    font-size: 2.5em;
+}
+
+.success p {
     font-size: 2em;
-    border-radius: 15px;
-    border: 0px;
+    padding: 5px 10px;
+}
+
+/* FOOTER */
+
+footer section {
+    background-color: var(--background-address);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+footer i {
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signin {
+    padding: 5px 10px;
+    margin: 10px auto;
+}
+
+.icons_sm div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.donate_button {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 5px 20px;
+    font-size: 2em;
+    font-family: "Alegreya Sans";
 }

@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            <div><img src="../images/logo.png" alt="Logo of the Museum"></div>
+            <div><a href="../index.html"><img src="../images/logo.png" alt="Logo of the Museum"></a></div>
             <div class="hamburger_menu"><label for="hamburger_menu"><i class="fa-solid fa-bars"><span class="hidden">hamburger menu</span></i></label> </div>
             <input type="checkbox" id="hamburger_menu">
             <nav>
@@ -26,10 +26,27 @@
             </nav>
         </header>
         <main>
-            <section>
-                <label for="Name"> Name </label>
-                <input >
-            </section>
+            <form action="submit.php" method="POST" >
+               <div class="checkout">
+                <label for="name"> Name </label><br>
+                <input type="text" name="name" id="name"> <br>
+                <label for="email"> E-mail </label><br>
+                <input type="text" name="email" id="email"> <br>
+                <label for="phonenumber">Phone number</label><br>
+                <input type="text" name="phonenumber" id="phonenumber"> <br>
+                <label for="cardnumber"> Card number </label> <br>
+                <input type="text" name="cardnumber" id="cardnumber"> <br>
+                <div class="card_details">
+                    <label for="date"> Date </label> 
+                    <label for="cvc"> CVC </label>
+                    <input type="text" name="date" id="date">
+                    <input type="text" name="cvc" id="cvc">
+                </div>
+              </div>
+                <div class="continue"> 
+                    <a href="success.html"> <input type="button" value="Pay Now" class="checkout_buttons"> </a>
+                </div>
+            </form>
         </main>
         <footer>
 
