@@ -408,7 +408,6 @@ footer section {
     display: flex;
     flex-direction: column;
     padding: 10px;
-
 }
 
 footer i {
@@ -426,11 +425,13 @@ footer i {
 .signin {
     padding: 5px 10px;
     margin: 10px auto;
+    font-family: "Alegreya Sans";
+    font-size: 1em;
 }
 
-.icons_sm div {
-    width: 100%;
+.icons_sm {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     margin: auto;
 }
@@ -443,3 +444,25 @@ footer i {
     font-size: 2em;
     font-family: "Alegreya Sans";
 }
+
+#email {
+    height:25px;
+    width: 80%;
+}
+
+footer i {
+    font-size: 3em;
+}
+
+/* Get Involved Page */
+
+.getinvolved {
+    display: flex;
+    justify-content: center;
+    margin: px auto;
+    padding: 10px;
+    font-family: "Exo";
+    text-transform: uppercase;
+    background-color: var(--background-text-color);
+}
+
