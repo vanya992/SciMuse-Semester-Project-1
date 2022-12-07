@@ -28,12 +28,15 @@
         <main>
             <form action="submit.php" method="POST" >
                <div class="checkout">
+              <section>
                 <label for="name"> Name </label><br>
                 <input type="text" name="name" id="name"> <br>
-                <label for="email"> E-mail </label><br>
-                <input type="text" name="email" id="email"> <br>
+                <label for="e-mail"> E-mail </label><br>
+                <input type="text" name="email" id="e-mail"> <br>
                 <label for="phonenumber">Phone number</label><br>
                 <input type="text" name="phonenumber" id="phonenumber"> <br>
+                </section>
+                <section>
                 <label for="cardnumber"> Card number </label> <br>
                 <input type="text" name="cardnumber" id="cardnumber"> <br>
                 <div class="card_details">
@@ -41,7 +44,8 @@
                     <label for="cvc"> CVC </label>
                     <input type="text" name="date" id="date">
                     <input type="text" name="cvc" id="cvc">
-                </div>
+                </section>
+            </div>
               </div>
                 <div class="continue"> 
                     <a href="success.html"> <input type="button" value="Pay Now" class="checkout_buttons"> </a>

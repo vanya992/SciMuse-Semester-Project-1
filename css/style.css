@@ -42,7 +42,6 @@ main {
 nav {
     display: none;
     font-family: "Exo";
-    text-transform: uppercase;
     background-color: var(--background-div-color);
     position: relative;
     margin: auto;
@@ -108,7 +107,6 @@ header {
 
 .container div {
     padding: 10px;
-    
 }
 
 .homepage_button {
@@ -167,10 +165,11 @@ h3 {
     padding: 20px;
 }
 
+
 /* EXHIBITS PAGE */
 
 .background_line {
-    background-color: #FFFFFF;
+    background-color: var(--background-text-color);
     display: flex;
     padding: 10px;
     margin: 10px auto;
@@ -234,7 +233,6 @@ p {
     background-position: center;
     height: 100%;
     width: 100%;
-   
 }
 
 .news_events {
@@ -263,7 +261,8 @@ p {
     padding: 10px;
     display: flex;
     justify-content: center;
-    color: var(--background-text-color);
+    color: #000;
+    background-color: #FABF7C;
 }
 
 .contact_page p {
@@ -307,6 +306,10 @@ p {
 
 .colored_contact {
     background-color: var(--background-address);
+}
+
+.address {
+    display: none;
 }
 
 /* ABOUT PAGE */
@@ -363,7 +366,6 @@ p {
 .card_details {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
     width: 90%;
 }
 
@@ -378,9 +380,6 @@ p {
     margin-left: 10px;
 }
 
-#cvc {
-
-}
 
 /* SUCCESS PAGE */
 
@@ -454,6 +453,10 @@ footer i {
     font-size: 3em;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 /* Get Involved Page */
 
 .getinvolved {
@@ -466,3 +469,191 @@ footer i {
     background-color: var(--background-text-color);
 }
 
+@media screen and (min-width: 600px) and (max-width: 799px) {
+
+    
+}
+
+@media screen and (min-width: 800px) {
+
+/* HOME PAGE */
+
+  header {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    position: relative;
+  }
+
+  .hamburger_menu {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+    justify-content: stretch;
+    background: none;
+    white-space: nowrap;
+    position: absolute;
+    padding: 10px;
+    margin: auto;
+    right: 0px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: stretch;
+    justify-self: center;
+  }
+
+  nav ul li {
+    padding: 5px;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+  .exhibit_home_display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .news {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
+
+/* EXHIBIT PAGE */
+
+  .exhibit_display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+  }
+
+  .exhibit_display div {
+    padding: 20px;
+  }
+
+/* EXPLORE PAGE */
+
+  .explore_page  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
+  .explore_page div {
+    padding: 20px;
+  }
+
+  .one {
+    grid-row: span 2;
+  }
+
+  .background_line h1 {
+    font-size: 3.3em;
+  }
+
+  /* NEWS PAGE */
+
+  .news_display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .news_display div {
+    padding: 10px;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  .news_page_background {
+   background-size: cover;
+  }
+
+  /* CONTACT PAGE */
+
+
+  .address {
+    display: block;
+  }
+
+  .adress {
+    display: none;
+  }
+
+  .contact_page section {
+    display: flex;
+    flex-direction: row;
+   
+  }
+
+  .open_hours {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-self: center;
+    margin: auto;
+  }
+
+  .background_image_2 {
+    width: 300px;
+    padding: 0px 20px;
+  }
+
+  .open_hours img {
+    width: 500px;
+    padding: 10px;
+  }
+
+  .info {
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .colored_contact {
+    background-color: var(--main-bg-color);
+  }
+
+  .divided {
+    margin: 10px;
+  }
+
+  .contact_heading {
+    color: #000;
+    background-color: var(--background-contact-page);
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+
+  /* CHECKOUT PAGE */
+
+  .checkout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* GET INVOLVED */
+
+  .get_involved {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .get_involved div {
+    padding: 10px;
+  }
+}
