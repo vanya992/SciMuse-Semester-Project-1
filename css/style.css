@@ -201,6 +201,10 @@ h3 {
     font-size: 1em;
     display: flex; 
     justify-content: center;
+    background-color: #54504C;
+    border: none;
+    border-radius: 2px;
+    color: var(--background-text-color);
 }
 
 a {
@@ -429,6 +433,9 @@ footer i {
     margin: 10px auto;
     font-family: "Alegreya Sans";
     font-size: 1em;
+    background-color: #54504C;
+    border: none;
+    color: var(--background-text-color);
 }
 
 .icons_sm {
@@ -445,6 +452,9 @@ footer i {
     padding: 5px 20px;
     font-size: 2em;
     font-family: "Alegreya Sans";
+    background-color: #54504C;
+    border: none;
+    color: var(--background-text-color);
 }
 
 #email {
@@ -455,6 +465,7 @@ footer i {
 footer i {
     font-size: 3em;
     padding: 15px;
+    color: var(--background-text-color);
 }
 
 footer i:hover {
