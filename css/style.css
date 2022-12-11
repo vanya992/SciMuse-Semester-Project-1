@@ -470,7 +470,7 @@ footer label {
 }
 
 .footer_info {
-  font-size: 1.5em;
+  color: var(--background-text-color);
 }
 
 
