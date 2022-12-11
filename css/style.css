@@ -454,11 +454,11 @@ footer i {
 
 footer i {
     font-size: 3em;
-    padding: 10px;
+    padding: 15px;
 }
 
 footer i:hover {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 footer a {
@@ -468,6 +468,12 @@ footer a {
 footer label {
     font-family: "Alegreya Sans";
 }
+
+.footer_info {
+  font-size: 1.5em;
+}
+
+
 
 /* Get Involved Page */
 
