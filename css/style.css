@@ -482,6 +482,7 @@ footer label {
 
 .footer_info {
   color: var(--background-text-color);
+  font-size: 1.2em;
 }
 
 
