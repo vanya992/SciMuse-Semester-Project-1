@@ -591,22 +591,23 @@ footer label {
 
   .news_display div {
     padding: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
-.news_display h2 {
-  span: 2-rows;
-}
-  .news_2 {
-    display: grid;
+
+  .news_divide {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .news_divide_2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .news_display p {
+    font-size: 2em;
   }
 
   
-
-  .photo {
-    display: none;
-  }
-
   .news_page_background {
    background-size: cover;
   }
