@@ -108,7 +108,8 @@ header i {
     border: none;
     border-radius: 10px;
     align-items: center;
-    margin: 10px 50px;
+    padding: 20px;
+    margin: 20px;
    
 }
 
@@ -412,7 +413,7 @@ footer i {
 .newsletter {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
 }
 
 .signin {
@@ -497,7 +498,7 @@ footer label {
   }
 
   nav {
-    display: block;
+    display: flex;
     text-align: center;
     justify-content: stretch;
     background: none;
@@ -534,6 +535,7 @@ footer label {
     padding: 10px;
   }
 
+
   .news {
     display: grid;
     justify-content: center;
@@ -551,6 +553,13 @@ footer label {
 
   .exhibit_display div {
     padding: 20px;
+  }
+
+  .box {
+    border-style: double;
+    background-color: #C59161;
+    padding: 10px;
+    margin: 20px;
   }
 
 /* EXPLORE PAGE */
@@ -577,12 +586,22 @@ footer label {
 
   .news_display {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .news_display div {
     padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
+.news_display h2 {
+  span: 2-rows;
+}
+  .news_2 {
+    display: grid;
+  }
+
+  
 
   .photo {
     display: none;
