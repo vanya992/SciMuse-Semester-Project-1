@@ -33,6 +33,14 @@ main {
     text-decoration: underline;
 }
 
+a:visited {
+  text-decoration: none;
+  color:#000;
+}
+
+p a {
+  font-size: 1.5em;
+}
 
 /* Navigation menu */
 
