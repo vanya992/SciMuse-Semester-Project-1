@@ -103,6 +103,13 @@ header i {
 
 /* HOME PAGE */
 
+.home_background {
+  background-image: url(../images/museum-3.jpg);
+  background-repeat: no-repeat;
+  padding: 200px;
+  background-size: cover;
+}
+
 .add_image {
     max-width: 100%;
     border-radius: 10px;
@@ -501,7 +508,7 @@ footer label {
 
 @media screen and (min-width: 600px) and (max-width: 799px) {
 
-    
+  
 }
 
 @media screen and (min-width: 800px) {
@@ -519,10 +526,9 @@ footer label {
     display: none;
   }
 
-  .museum {
-    width: 100%;
+  .home_background {
+    padding: 450px;
   }
-
   nav {
     display: flex;
     text-align: center;
@@ -543,7 +549,8 @@ footer label {
   }
 
   nav ul li {
-    padding: 5px;
+    padding: 15px;
+    justify-content: center;
   }
 
 
