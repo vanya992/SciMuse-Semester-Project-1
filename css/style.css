@@ -506,9 +506,38 @@ footer label {
     background-color: var(--background-text-color);
 }
 
-@media screen and (min-width: 600px) and (max-width: 799px) {
+@media (min-width: 600px) and (max-width: 799px) {
 
-  
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+
+  }
+
+  .hamburger_menu {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    padding: 5px;
+    margin: 0px;
+    font-size: 0.8em;
+    white-space: nowrap;
+    background: none;
+    align-self: center;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    right: 5px;
+    width: 100%;
+  }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -532,13 +561,15 @@ footer label {
   nav {
     display: flex;
     text-align: center;
-    justify-content: stretch;
+    justify-content: space-between;
+    align-self:  center;
     background: none;
     white-space: nowrap;
     position: absolute;
     padding: 10px;
     margin: auto;
     right: 0px;
+    font-size: 1.2em;
   }
 
   nav ul {
@@ -553,6 +584,16 @@ footer label {
     justify-content: center;
   }
 
+    nav a:hover {
+      
+      text-decoration: none;
+      background-color: var(--background-address);
+      padding: 15px;
+      color: white;
+      border-style:initial;
+      border-color: #000;
+      
+    }
 
   .container {
     display: flex;
