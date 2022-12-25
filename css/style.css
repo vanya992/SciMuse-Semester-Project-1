@@ -336,7 +336,7 @@ p {
 
 .booking {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     font-family: "Alegreya";
     color: var(--background-text-color);
     font-size: 2em;
@@ -775,6 +775,10 @@ footer label {
 
   }
 
+    .about section {
+      display: flex;
+      flex-direction: row;
+    }
   .purple p {
     margin: 20px;
     justify-self: center;
