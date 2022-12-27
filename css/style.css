@@ -34,7 +34,7 @@ main {
     background-color: var(--main-bg-color);
     padding: 0px;
     margin: 0px;
-    padding-top: 90px;
+    padding-top: 85px;
     
 }
 
@@ -89,13 +89,15 @@ nav ul li a {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 0px 5px;
+    margin: 0px auto;
     position: fixed;
     background-color: rgb(255, 255, 255, 0.8);
     width: 100%;
+    right: 0px;
 }
 
 header i {
@@ -104,6 +106,11 @@ header i {
 
 .hamburger_menu {
     align-self: center;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
 }
 
 .background_image {
@@ -544,19 +551,15 @@ footer label {
 
   }
 
-  main {
-    padding-top: 80px;
-  }
-
   .hamburger_menu {
     display: none;
   }
 
   nav {
-    display: block;
+    display: flex;
     padding: 5px;
     margin: 0px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     white-space: nowrap;
     background: none;
     align-self: center;
@@ -579,13 +582,13 @@ footer label {
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr auto;
-    position: relative;
+    position: fixed;
     padding: 0px;
     align-items: center;
   }
 
   main {
-    padding-top: 0px;
+    padding-top: 110px;
   }
 
   .hamburger_menu {
@@ -630,6 +633,12 @@ footer label {
       border-style:initial;
       border-color: #000;
       
+    }
+
+    .logo {
+      height: 100px;
+      width: auto;
+
     }
 
   .container {
