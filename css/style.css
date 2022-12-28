@@ -340,7 +340,7 @@ p {
 }
 
 .colored_contact {
-    background-color: var(--background-address);
+    background-color: var(--background-color-news);
 }
 
 .address {
@@ -773,7 +773,7 @@ footer label {
   }
 
   .colored_contact {
-    background-color: var(--main-bg-color);
+    background-color: var(--box-bg-color);
   }
 
   .divided {
