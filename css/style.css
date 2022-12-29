@@ -36,11 +36,15 @@ main {
     padding: 0px;
     margin: 0px;
     padding-top: 85px;
-    
+}
+
+main p {
+  font-family: "Alegreya";
 }
 
 .active {
     text-decoration: underline;
+    box-shadow: #54504C;
 }
 
 a:visited {
@@ -65,6 +69,7 @@ nav {
     position: relative;
     margin: auto;
     right: 10px;
+    transition: all ease-in-out 300ms;
     
 }
 
@@ -116,6 +121,7 @@ header i {
 
 .background_image {
     width: 100%;
+    margin: 0px;
 }
 
 .hidden {
@@ -243,6 +249,12 @@ a {
 .exhibit_display div {
     padding: 10px;
 }
+
+.exhibit_display p {
+  font
+}
+
+
 
 /* EXPLORE PAGE */
 
@@ -372,6 +384,7 @@ p {
     color: var(--background-text-color);
     font-family: "Exo";
     text-align: center;
+    padding: 10px;
 }
 
 .book {
@@ -384,9 +397,12 @@ p {
 }
 
 .continue {
-    background-color: var(--background-address);
-    margin: 20px auto;
+    background-color: var(--box-bg-color);
+    margin: auto -10px;
     padding: 20px;
+}
+.part {
+  background-color: var(--background-address);
 }
 
 .checkout {
@@ -546,7 +562,7 @@ footer label {
     background-color: var(--background-text-color);
 }
 
-@media (min-width: 720px) and (max-width: 1059px) {
+@media (min-width: 740px) and (max-width: 1059px) {
 
   header {
     display: flex;
@@ -576,6 +592,19 @@ footer label {
     right: 5px;
     width: 100%;
     overflow: none;
+  }
+
+  nav a:hover {
+    text-decoration: none;
+    background-color: var(--background-address);
+    padding: 10px;
+    color: white;
+    border-style:initial;
+    border-color: #000;
+  }
+
+  main p {
+    font-size: 1.2em;
   }
 
 }
@@ -638,7 +667,6 @@ footer label {
       color: white;
       border-style:initial;
       border-color: #000;
-      
     }
 
     .logo {
@@ -661,6 +689,15 @@ footer label {
     padding: 10px;
   }
 
+  #email {
+    width: 70%;
+  }
+
+  .newsletter {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
 
   .news {
     display: grid;
@@ -731,6 +768,7 @@ footer label {
 
   .news_display p {
     font-size: 2em;
+    font-family: "Alegreya";
   }
 
   
@@ -774,6 +812,7 @@ footer label {
 
   .info {
     margin: auto;
+    margin-bottom: px;
     padding: 10px;
     justify-content: center;
   }
