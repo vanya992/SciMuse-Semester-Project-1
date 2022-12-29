@@ -28,6 +28,7 @@
 
 body {
   max-width: 100%;
+  margin: 0px;
 }
 
 main {
@@ -92,12 +93,12 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 5px;
+    padding: 0px 10px;
     margin: 0px auto;
     position: fixed;
     background-color: rgb(255, 255, 255, 0.8);
     width: 100%;
-    right: 0px;
+    box-sizing: border-box;
 }
 
 header i {
@@ -237,6 +238,10 @@ h3 {
 
 a {
     text-decoration: none;
+}
+
+.exhibit_display div {
+    padding: 10px;
 }
 
 /* EXPLORE PAGE */
@@ -541,7 +546,7 @@ footer label {
     background-color: var(--background-text-color);
 }
 
-@media (min-width: 600px) and (max-width: 999px) {
+@media (min-width: 720px) and (max-width: 1059px) {
 
   header {
     display: flex;
@@ -570,11 +575,12 @@ footer label {
     display: flex;
     right: 5px;
     width: 100%;
+    overflow: none;
   }
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1060px) {
 
 /* HOME PAGE */
 
