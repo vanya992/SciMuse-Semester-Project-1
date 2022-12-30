@@ -33,7 +33,7 @@ body {
 
 main {
     background-color: var(--main-bg-color);
-    padding: 0px;
+    padding: 10px 0px;
     margin: 0px;
     padding-top: 85px;
 }
@@ -242,19 +242,13 @@ h3 {
     color: var(--background-text-color);
 }
 
+.information {
+  font-size: 1.5em;
+}
+
 a {
     text-decoration: none;
 }
-
-.exhibit_display div {
-    padding: 10px;
-}
-
-.exhibit_display p {
-  font
-}
-
-
 
 /* EXPLORE PAGE */
 
@@ -384,7 +378,7 @@ p {
     color: var(--background-text-color);
     font-family: "Exo";
     text-align: center;
-    padding: 10px;
+    
 }
 
 .book {
@@ -398,7 +392,7 @@ p {
 
 .continue {
     background-color: var(--box-bg-color);
-    margin: auto -10px;
+    margin: auto ;
     padding: 20px;
 }
 .part {
@@ -407,6 +401,7 @@ p {
 
 .checkout {
     font-family: "Exo";
+    padding-top: 40px;
 }
 
 .checkout label {
@@ -449,7 +444,7 @@ p {
 /* SUCCESS PAGE */
 
 .success {
-    font-family: "Exo";
+    font-family: "Alegreya";
 }
 
 .success h1 {
@@ -560,6 +555,10 @@ footer label {
     font-family: "Exo";
     text-transform: uppercase;
     background-color: var(--background-text-color);
+}
+
+.get_involved {
+  padding: 10px 0px;
 }
 
 @media (min-width: 740px) and (max-width: 1059px) {
@@ -730,7 +729,7 @@ footer label {
   .explore_page  {
     display: grid;
     grid-template-columns: 1fr 1fr;
- }
+  }
 
   .explore_page div {
     padding: 20px;
@@ -830,6 +829,11 @@ footer label {
     background-color: var(--background-contact-page);
     padding-top: 10px;
     text-transform: uppercase;
+  }
+  /* BOOKING PAGE */
+
+  .booking_headline {
+      padding-top: 110px;
   }
 
   /* CHECKOUT PAGE */
