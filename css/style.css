@@ -573,6 +573,10 @@ footer label {
 
   }
 
+  .home_background {
+    padding: 200px;
+  }
+
   .hamburger_menu {
     display: none;
   }
