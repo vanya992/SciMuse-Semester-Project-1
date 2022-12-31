@@ -135,7 +135,7 @@ header i {
   background-repeat: no-repeat;
   padding: 200px;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   margin: 0px;
   object-fit: cover;
 }
