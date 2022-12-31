@@ -134,7 +134,7 @@ header i {
   background-image: url(../images/museum-3.jpg);
   background-repeat: no-repeat;
   padding: 200px;
-  background-size: cover;
+  width: 100%;
   background-position: center center;
   margin: 0px;
 }
