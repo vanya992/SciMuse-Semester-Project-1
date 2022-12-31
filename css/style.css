@@ -136,6 +136,7 @@ header i {
   padding: 200px;
   background-size: cover;
   background-position: center center;
+  margin: 0px;
 }
 
 .add_image {
