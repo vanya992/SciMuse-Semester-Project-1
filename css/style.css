@@ -38,6 +38,10 @@ main {
     padding-top: 85px;
 }
 
+body a {
+  color: intial;
+}
+
 main p {
   font-family: "Alegreya";
 }
