@@ -1,55 +1,38 @@
-# SciMuse-Semester-Project-1
-
-SciMuse / National Science Museum
+# SciMuse / Public Science Museum
 
 ![image](images/scimuse.png)
 
 A simple overview of the use/purpose of the project.
+This project is meant to be child oriented, it is Public Science Museum, with different kinds of exhibitions and interesting display for everyone, with focus on kids and making learning fun.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+In this project you can find variety of informations. Some include coming exhibitions, other give you information about possible ways to participate in volunteer work or to enrich the museum exhibitions sets. It is provided ticket booking, so you can make a reservation that will wait for you at the museum doors. 
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+This project can be improved, but until now we only had chance to work on it with:
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- HTML(https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS (https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+First thing you would like to do is to make a GitHub repo, with necessary files to get you started. 
 
-1. Clone the repo:
+Connect your GitHub profile to the GitHub Desktop app, so that all changes you make can be saved properly. 
 
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
+After you have done that, clone the GitHub repo with simple click on the right side of the repo section, click on Code, and then Clone repo, with finding spot on your computer for it.
 
-2. Install the dependencies:
+GitHub Desktop is conected to your text editor of choice, mine is VCSode, and I can recommend it. As soon as you can open it with GitHub Desktop, you are good to go since it is just one click to get to coding, and there it takes you Open with VSCode (in my case, you can have editor of your choosing.)
 
-```
-npm install
-```
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
+If you would like to be able to check all the changes you are making right away, you can do so by instaling Live Server extention in VSCode, and on right click you can find option Open with Live Server, as soon as you click on that, your project will be opened in your browser. It is still in the local storage so you cannot share it with anyone, but that is also possible with deploying your site on some deploying platform such as fex Netlify.
 
 ## Contributing
 
