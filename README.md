@@ -47,7 +47,7 @@ npm run start
 
 ## Contributing
 
-Feel free to open a disscusion about changes you would like to make to this project.
+Feel free to open a disscusion about changes you would like to make to this project, interactivity with JS is yet to be implemented and I could use some suggestions.
 
 ## Contact
 
