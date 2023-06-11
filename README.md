@@ -28,7 +28,7 @@ This project is made very simply, and until I get thge chance to improve it main
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:vanya992/Blissful-Nirvana.git
+git clone git@github.com:vanya992/SciMuse-Semester-Project-1.git
 ```
 
 2. Install the dependencies:
