@@ -1,4 +1,4 @@
-# SciMuse / Public Science Museum
+# SciMuse / Community Science Museum
 
 ![image](images/scimuse.png)
 
