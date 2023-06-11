@@ -3,7 +3,7 @@
 ![image](images/scimuse.png)
 
 
-This project is meant to be child oriented, it is Public Science Museum, with different kinds of exhibitions and interesting display for everyone, with focus on kids and making learning fun.
+This project is meant to be child oriented, it is Community Science Museum, with different kinds of exhibitions and interesting display for everyone, with focus on kids and making learning fun.
 
 ## Description
 
