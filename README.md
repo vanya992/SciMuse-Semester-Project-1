@@ -54,5 +54,5 @@ Feel free to open a disscusion about changes you would like to make to this proj
 
 You can contact me through my linkedin profile: (https://www.linkedin.com/in/vladimira-dmitrovic-090183249/);
 
-My facebook profile: (https://www.facebook.com/vladimira.dmitrovic.3/?paipv=0&eav=AfYrucvWHIWhHK13qWGSMc6MRoXYCayHsoaKkQBs9Esp-NXJg0XdZYfkbJNqoGlJ3SE&_rdr)
+or my facebook profile: (https://www.facebook.com/vladimira.dmitrovic.3/?paipv=0&eav=AfYrucvWHIWhHK13qWGSMc6MRoXYCayHsoaKkQBs9Esp-NXJg0XdZYfkbJNqoGlJ3SE&_rdr)
 
