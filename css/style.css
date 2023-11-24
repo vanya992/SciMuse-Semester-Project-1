@@ -622,6 +622,15 @@ footer label {
 
 /* HOME PAGE */
 
+body {
+  background-color: var(--background-contact-page);
+}
+
+main {
+  max-width: 70%;
+  margin: auto;
+}
+
   header {
     max-width: 100%;
     display: grid;
